@@ -31,7 +31,7 @@ public class Question4 {
             int mark = console.nextInt();
             console.nextLine();
 
-            fw.write(name + "," + mark + System.lineSeparator());
+            fw.write(name + "," + mark + "\n");
         }
 
         fw.close();
